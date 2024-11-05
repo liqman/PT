@@ -34,9 +34,9 @@ timedatectl set-timezone Asia/Shanghai
 echo "+---------------------------------------------+"
 echo "| 正在下载配置文件...                         |"
 echo "+---------------------------------------------+"
-wget -P /root/fj_admin/qb  https://github.com/lifujie25/lifj/raw/main/qb.tar.gz
-wget -P /root/fj_admin/fb  https://github.com/lifujie25/lifj/raw/main/fb.tar.gz
-wget -P /root/fj_admin/vt  https://github.com/lifujie25/lifj/raw/main/vt.tar.gz
+wget -P /root/fj_admin/qb  https://raw.githubusercontent.com/liqman/PT/refs/heads/main/qb.tar.gz
+wget -P /root/fj_admin/fb  https://raw.githubusercontent.com/liqman/PT/refs/heads/main/fb.tar.gz
+wget -P /root/fj_admin/vt  https://raw.githubusercontent.com/liqman/PT/refs/heads/main/vt.tar.gz
 
 if [ $? -ne 0 ]; then
     echo "下载压缩包失败，脚本退出"
